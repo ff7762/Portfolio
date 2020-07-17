@@ -6,7 +6,11 @@
 
 .landing {
     background: #334433;
-    height: 100vh
+    height: 100vh;
+    background-image: url("1586770449128.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 
 .flex {
@@ -16,6 +20,7 @@
     text-align: center;
     padding-left: 100px;
     padding-right: 200px;
+    z-index: 1;
 }
 
 .greeting {
@@ -23,6 +28,7 @@
     font-size: 50px;
     text-align: center;
     color: #ffffff;
+    z-index: 1;
 }
 
 .box-1 {
@@ -32,6 +38,7 @@
     width: 22vw;
     order:2;
     flex-grow:1;
+    background: #ff4444;
 }
 
 .box-2 {
@@ -41,6 +48,7 @@
     width: 22vw;
     order:2;
     flex-grow:1;
+    background: #ff4444;
 }
 
 .box-3 {
@@ -51,6 +59,7 @@
     order:2;
     flex-grow:1;
     margin-left: 30px;
+    background: #ff4444;
 }
 
 .box-4 {
@@ -61,6 +70,7 @@
     order:2;
     flex-grow:1;
     margin-top: 30px;
+    background: #ff4444;
 }
 
 .box-5 {
@@ -72,6 +82,7 @@
     order:5;
     flex-grow:1;
     margin-left: 30px;
+    background: #ff4444;
 }
 
 .flex-grid {
