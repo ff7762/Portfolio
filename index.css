@@ -5,6 +5,11 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
 @font-face {
   font-family: 'poppins';
   src: url(fonts/Poppins-Medium.ttf);
@@ -38,17 +43,24 @@
 .contact {
     top: 85vh;
     border-left: 2px solid #000000;
+    border-top: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-right: 0px solid transparent;
     margin: 0px;
     padding: 0px;
-    height: 50px;
+    height: 5vh;
     z-index: 10;
     font-family: var;
+    font-size: 30px;
+    box-shadow: 0px 0px 0px transparent;
+    text-shadow: 0px 0px 0px transparent;
+    background: #ffffff;
+    border-radius: 2px;
+    scroll-behavior: smooth;
 }
 
 .sticky-helper {
-    font-size: 30px;
     text-align: left;
-
     position: sticky;
     top: 0;
     z-index: 10;
@@ -57,7 +69,7 @@
 .name {
     font-size: 30px;
     text-align: left;
-    margin-left: 20px;
+    margin-left: 3svw;
     position: sticky;
     top: 0;
     margin-left: 20px;
@@ -71,8 +83,8 @@
     color: #ffffff;
     z-index: 1;
     text-align: left;
-    padding-left: 20px;
-    padding-top: 20px;
+    padding-left: 2vw;
+    padding-top: 2vh;
 }
 
 .panel {
@@ -96,22 +108,21 @@
     color: #ffffff;
     font-size: 30px;
     padding-top: 60vh;
-    padding-left: 120px;
+    padding-left: 30vw;
     text-align: right;
-    padding-right: 120px;
-    padding-bottom: 10px;
+    padding-right: 6vw;
+    padding-bottom: 2vh;
 }
 
 .rule {
     width: 85%;
     border-top: 2px solid #ffffff;
-    padding-top: 640px;
-    margin-left: 120px;
+    margin-left: 6.5vw;
 }
 
 .project1 {
     height: 80vh;
-    padding-top: 40px;
+    padding-top: 5vh;
     background-color: #ffffff;
 }
 
@@ -125,8 +136,8 @@
     width: auto;
     height: auto;
     margin-left: 51vw;
-    padding-top: 60px;
-    top: -700px;
+    padding-top: 4vh;
+    top: -80vh;
 }
 
 .text-box {
@@ -149,7 +160,7 @@
     width: auto;
     height: auto;
     margin-left: 10vw;
-    padding-top: 60px;
+    padding-top: 6vh;
     top: -780px;
 }
 
@@ -161,21 +172,43 @@
 }
 
 .bio {
-    height: 80vh;
-    background-color: #F0573F
+    height: 50vh;
+    background-color: #4ecdc4;
 }
 
 .bio-panel {
     text-align: center;
-    background-color: #50674F;
+    background-color: #ffe66d;
     height: 28vh;
     width: 60vw;
     font-size: 30px;
     font-family: ptsans;
-    top: -200px;
+    top: -4vh;
 }
 
 .bio-title {
+    font-family: ptsans;
     font-size: 50px;
-    top: -220px;
+    top: -60px;
+}
+
+.contact-me {
+    height: 28vh;
+    background-color: #1A171E;
+}
+
+.lets-connect {
+    color: #ffffff;
+    font-size: 26px;
+    padding-left: 40vh;
+    padding-top: 4vh;
+    font-family: poppins;
+}
+
+.email {
+    color: #ffffff;
+    font-size: 48px;
+    padding-left: 40vh;
+    padding-top: 4vh;
+    font-family: poppins;
 }
