@@ -1,101 +1,50 @@
 * {
+    position: relative;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+@font-face {
+    font-family: 'gamer';
+    src: : url(fonts\RedRose-Bold.ttf);
+}
+
+
 .landing {
-    background: #333333;
+    background: #ffffff;
     height: 95vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-}
-
-.flex {
-    display:flex;
-    flex-direction:row;
-    justify-content:space-around;
     text-align: center;
-    padding-left: 100px;
-    padding-right: 200px;
-    z-index: 1;
 }
 
 .greeting {
     font-weight: bold;
     font-size: 50px;
     text-align: center;
+    font-family: gamer;
     color: #ffffff;
-    font-family: sans-serif;
     z-index: 1;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
-.box-1 {
-    border: 3px solid #ff44ff;
-    border-radius: 4px;
-    height: 350px;
-    width: 22vw;
-    order:2;
-    flex-grow:1;
-    background: #EBF4FA;
-}
-
-.box-2 {
-    border: 3px solid #ff44ff;
-    border-radius: 4px;
-    height: 350px;
-    width: 22vw;
-    order:2;
-    flex-grow:1;
-    background: #EBF4FA;
-}
-
-.box-3 {
-    border: 3px solid #ff44ff;
-    border-radius: 4px;
-    height: 250px;
-    width: 30vw;
-    order:2;
-    flex-grow:1;
-    margin-left: 30px;
-    background: #EBF4FA;
-}
-
-.box-4 {
-    border: 3px solid #ff44ff;
-    border-radius: 4px;
-    height: 250px;
-    width: 46vw;
-    order:2;
-    flex-grow:1;
-    margin-top: 30px;
-    background: #EBF4FA;
-}
-
-.box-5 {
-    border: 3px solid #ff44ff;
-    border-radius: 4px;
-    height: 350px;
-    margin-top: -70px;
-    width: 30vw;
-    order:5;
-    flex-grow:1;
-    margin-left: 30px;
-    background: #EBF4FA;
-}
-
-.flex-grid {
-    margin-top: 40px;
-}
-
-.bio {
+.panel {
     height: 80vh;
-    background-color: #ff4455;
-    border-top: 3px solid #ffee22;
+    width: 80vw;
+    background-color: #1A171E;
+    border-radius: 5px;
+
 }
 
-.contact {
-    height: 30vh;
-    background: #335544;
+.order {
+    text-align: center;
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
