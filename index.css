@@ -128,7 +128,7 @@ html {
 
 .project2 {
     height: 80vh;
-    padding-top: 40px;
+    padding-top: 2vh;
 }
 
 .image-container {
@@ -138,6 +138,11 @@ html {
     margin-left: 51vw;
     padding-top: 4vh;
     top: -80vh;
+}
+
+.p1-image {
+    width: 30vw;
+    height: 55vh;
 }
 
 .text-box {
@@ -156,12 +161,14 @@ html {
 }
 
 .p2-image-container {
-    display: block;
-    width: auto;
-    height: auto;
     margin-left: 10vw;
     padding-top: 6vh;
     top: -780px;
+}
+
+.p2-image {
+    width: 40vw;
+    height: 60vh;
 }
 
 .p2-text-box {
