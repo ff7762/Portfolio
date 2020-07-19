@@ -41,7 +41,7 @@
     margin: 0px;
     padding: 0px;
     height: 50px;
-
+    z-index: 10;
 }
 
 .sticky-helper {
@@ -50,6 +50,7 @@
 
     position: sticky;
     top: 0;
+    z-index: 10;
 }
 
 .name {
@@ -108,18 +109,24 @@
 }
 
 .project1 {
-    height: 70vh;
+    height: 80vh;
     padding-top: 40px;
-    A30015
+    background-color: #A4f561;
+}
+
+.project2 {
+    height: 80vh;
+    padding-top: 40px;
+    background-color: #E83A62;
 }
 
 .image-container {
     display: block;
     width: auto;
     height: auto;
-    margin-left: 50vw;
+    margin-left: 51vw;
     padding-top: 60px;
-    top: -680px;
+    top: -700px;
 }
 
 .text-box {
@@ -135,4 +142,20 @@
 
 .paragraph {
     font-size: 24px;
+}
+
+.p2-image-container {
+    display: block;
+    width: auto;
+    height: auto;
+    margin-left: 10vw;
+    padding-top: 60px;
+    top: -700px;
+}
+
+.p2-text-box {
+    height: 80vh;
+    width: 40vw;
+    margin-left: 51vw;
+    font-family: ptsans;
 }
